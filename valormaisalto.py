@@ -13,6 +13,6 @@ def maiorv (lista):
 #N = int(input())
 #lista = input().split()
 
-lista = [4, 5, 6, 2100, 10, 1]  
+lista = [4, 5, 6, 2100, 10, 1, 20, 5000, 7]  
 print(maiorv(lista))      
         
