@@ -29,13 +29,14 @@ nove_digitos = cpf[:9]
 regressivo = 10
 mult = 0
 
-#print(nove_digitos)
+print(nove_digitos)
 for digito in nove_digitos:
     mult += int(digito) * regressivo
     regressivo -= 1
 print(mult)
 
 mult = (mult*10)%11
+print(mult)
 
 mult = mult if mult <= 9 else 0
 
