@@ -12,12 +12,10 @@ def mult (*args):
     return total
 
 def par_impar(x):
-    x = x%2
-    if x == 0:
-        x = 'par'
-    else:
-        x = 'impar' 
-    return x    
+    resto = x%2 == 0
+    if resto :
+       return f'{x} é par'
+    return f'{x} é impar'    
 
 seq = 5,10,3,4,8
 prod = mult(*seq)
