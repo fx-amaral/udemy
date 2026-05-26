@@ -12,21 +12,22 @@
 pessoa = {
     'nome': 'Luiz Otávio',
     'sobrenome': 'Miranda',
+    'nome do meio': "Sant'Anna",
     'idade': 900,
 }
 
-pessoa.setdefault('idade', 0)
-pessoa.setdefault('nome do meio', "Sant'Anna")
-# print(pessoa['idade'])
-# print(pessoa)
-# print(pessoa['nome do meio'])
+#print(list(pessoa.keys()))
+pessoa.setdefault('altura', 1.80)
+# print(pessoa['altura'])
 # print(len(pessoa))
-# print(list(pessoa.keys()))
+#print(list(pessoa.keys()))
 # print(list(pessoa.values()))
+lista = (list(pessoa.items()))
 print(list(pessoa.items()))
+print(lista[0][1])
 
 # for valor in pessoa.values():
 #     print(valor)
 
-# for chave, valor in pessoa.items():
-#     print(chave, valor)
+for chave, valor in pessoa.items():
+    print(chave, valor)
