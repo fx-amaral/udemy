@@ -17,6 +17,7 @@ pessoa = {
 
 pessoa.setdefault('idade', 0)
 pessoa.setdefault('nome do meio', "Sant'Anna")
+<<<<<<< HEAD
 # print(pessoa['idade'])
 # print(pessoa)
 # print(pessoa['nome do meio'])
@@ -24,6 +25,15 @@ pessoa.setdefault('nome do meio', "Sant'Anna")
 # print(list(pessoa.keys()))
 # print(list(pessoa.values()))
 print(list(pessoa.items()))
+=======
+print(pessoa['idade'])
+print(pessoa)
+print(pessoa['nome do meio'])
+# print(len(pessoa))
+# print(list(pessoa.keys()))
+# print(list(pessoa.values()))
+# print(list(pessoa.items()))
+>>>>>>> 83932bf9f8461cce31e57ff0e521d1245ad00e9c
 
 # for valor in pessoa.values():
 #     print(valor)

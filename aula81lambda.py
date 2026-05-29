@@ -22,7 +22,7 @@ lista = [
     {'nome': 'Aline', 'sobrenome': 'Souza'},
 ]
 
-
+#Ordenação com lambda
 def exibir(lista):
     for item in lista:
         print(item)
@@ -34,3 +34,11 @@ l2 = sorted(lista, key=lambda item: item['sobrenome'])
 
 exibir(l1)
 exibir(l2)
+
+#Ordenação com função
+# def ordena(item):
+#     return item['nome']
+
+# lista.sort(key=ordena)
+# for item in lista:
+#     print(item)
