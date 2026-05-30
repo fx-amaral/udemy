@@ -29,3 +29,5 @@ print(outra_soma)
 
 print(sum(numeros))
 print(*numeros)
+print()
+print(sum([50, 10, 60, 123]))
