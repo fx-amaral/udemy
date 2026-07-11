@@ -1,6 +1,10 @@
 # dir, hasattr e getattr em Python
-string = 'Luiz'
+
+import aula71args
+string = 'casa'
 metodo = 'upper'
+
+print('Módulo - ',__name__)
 
 if hasattr(string, metodo):
     print('Existe upper')

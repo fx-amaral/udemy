@@ -31,7 +31,7 @@ pessoa = {
         {'rua': 'outra rua', 'número': 321},
     ],
 }
-# print(pessoa, type(pessoa))
+print(pessoa, type(pessoa))
 print(pessoa['nome'])
 print(pessoa['sobrenome'])
 

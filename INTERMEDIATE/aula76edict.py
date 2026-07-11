@@ -9,10 +9,9 @@
 # pop - Apaga um item com a chave especificada (del)
 # popitem - Apaga o último item adicionado
 # update - Atualiza um dicionário com outro
-p1 = {
-    'nome': 'Luiz',
-    'sobrenome': 'Miranda',
-}
+p1 = {'nome': 'Luiz',
+    'sobrenome': 'Miranda',}
+    
 # print(p1['nome'])
 # print(p1.get('nome', 'Não existe'))
 
